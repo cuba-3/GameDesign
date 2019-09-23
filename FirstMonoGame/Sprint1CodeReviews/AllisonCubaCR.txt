@@ -1,0 +1,16 @@
+﻿Allison Cuba
+2/12/19
+Sprint 1
+EnemySprite.cs
+Natalie Amling
+Right now, EnemySprite.cs does not support switching animations.  
+Right now, this will function for Sprint 1 because the enemies don't have to be killed. 
+However, they're really being treated as Items, which will become a problem when they need to transition into a dead state.
+I also don't think that the EnemySprite constructor needs to be passed rowIndex and columnIndex.
+
+Time Spent on review: 15 minutes
+
+InitializeSprite also doesn't do anything right now. This is because our factories use the constructor to initialize it.
+However, InitializeSprite is in the Sprite Interface, ISprite, so it has to be implemented in EnemySprite.
+It seems like maybe we should be using a different interface for our avatar and our enemies.
+

@@ -1,0 +1,14 @@
+﻿Natalie Amling
+Mar. 19th 2019
+Sprint 3
+ExplodingBlock.cs and CollisionResponse.cs(specifically brick block's response)
+Allison Cuba
+
+The process of handling an exploding brick block is kind of confusing in general. Instead of the pieces of 
+the exploded block being created when the the brick is bumped by a large scale Peach, the pieces are children
+of the exising brick block and are revealed like an item from the brick block as the brick block is deregistered
+and taken off screen. I don't think this necessarily a problem but it seems like overloading the meaning of a
+child in the xml, it seems like that should only be used for items contained.
+
+I would suggest creating the instances of each exploded piece upon the call to explode the block in 
+CollisionResponse. I would call the spritefactory method to create 4 exploded brick pieces.

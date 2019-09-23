@@ -1,0 +1,18 @@
+﻿Allison Cuba
+2/26/19
+Sprint 2 
+AvatarSprite.cs, EnemySprite.cs, BlockSprite.cs, ItemSprite.cs   (GetBoundingBox)
+Natalie Amling
+
+The GetBoundingBox method that is implemented by all of our sprites, still isn't a truly accurate reflection of the bounding box of our sprites.
+The rectangle that appears around all of the sprites is just a Texture that we generate based on the Sprite's location and the width of the 
+Sprite's texture.  We tried generating the Texture in Update() so that it would be more accurate, but this caused our game to severely lag and it
+had to be taken out.  
+
+Time Spent on review: 10 minutes
+
+There might have been better ways to do this, but we felt as though we exhausted all of our options.  Perhaps in the future, we could make them
+closer to sprite itself.  Each power state for peach has its own sprite sheet.  Because of this, the spacing is based on the largest sprite on the 
+sheet.  In our case this is peach's jumping action state for each sprite sheet.  Therefore, all of her bounding boxes are the size of her jumping
+avatar no matter what their true size is.  If we separated her sprite sheets based on Action instead of state, we could get a more accurate bounding
+box.

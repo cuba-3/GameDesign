@@ -1,0 +1,17 @@
+﻿Natalie Amling
+2/12/19
+Sprint 1
+CrouchCommand.cs
+Penny Carver and Cassidy Murphy
+
+Specific comments on code quality
+In general the command files are pretty sucessful. The only issue I see is that the way the command files are set 
+up right now, each command for Peach must check peaches actionstate and powerupstate before calling a transition.
+Specifically in CrouchCommand, Execute() checks that Peach is not Dead, is Idle and is not Standard before calling
+crouch transition.
+
+Number of minutes taken to complete the review : 10 Minutes
+
+Potentially we could have more Command files to support a simplar implementation for each execute. I'm not sure 
+whether is would be better to consolidate the commands or keep Execute() simplar but it is an option going forward
+if it gets more complicated.

@@ -1,0 +1,13 @@
+﻿Natalie Amling
+Apr. 2nd 2019
+Sprint 4
+GameOverState.cs, InitialState.cs, WinnnerState.cs
+Mckenzie
+
+The game state implementation is done very well. This way the current game state
+can be checked to keep us from running the game when the game isnt current in running mode. 
+We can also use these to determine when to draw splash screens. It's a good use of state design
+pattern. Also this way we can decide what exactly to do when the game transistions from one
+state to the other.
+
+

@@ -1,0 +1,23 @@
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FirstMonoGame.Interfaces
+{
+    public interface IGameState
+    {
+        void Draw(SpriteBatch spriteBatch);
+        void Update(GameTime gameTime);
+        void GameOverTransition();
+        void InitializeTransition();
+        void WinnerTransition();
+        void CoinRoomTransition();
+        void GradeRoomTransition();
+        void GameTransitionStateTransistion();
+        void BeginningTransition();
+    }
+}

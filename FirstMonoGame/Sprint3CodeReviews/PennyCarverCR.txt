@@ -1,0 +1,15 @@
+﻿Penny Carver 
+3/19/2019
+Sprint3
+Code: KeyboardController.cs, GamepadController.cs
+Author: Cassidy Murphy
+
+The logic for keys being pressed, held and released makes sense. 
+It would be a good idea to put the key states with the key and command so that 
+commands can be broken down into singular calls versus command classes 
+having multiple methods. Later, action states could go with them too. 
+Commands would be simpler this way. If we added the ability to control 
+height of jump by how long the jump button is held, we would need to be able 
+to keep adding velocity while Peach is jumping and the button is being held.
+
+Minutes: 15

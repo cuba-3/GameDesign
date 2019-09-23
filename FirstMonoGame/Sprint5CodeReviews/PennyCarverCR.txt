@@ -1,0 +1,16 @@
+﻿Penny Carver 
+4/16/2019
+Sprint5
+Code: BeginningState.cs
+Author: McKenzie Kennelly
+
+It's curious to me that the intro cutscene actually has a Peach object as opposed to just using a Sprite. This could be really useful if the cutscene ended up involving
+some sort of collisions, or gameplay-like scene. For this cutscene, you easily could have just programmed the animation changes and movements through
+the state's Update and Draw. The strings in Draw should be placed in the Constant file, so that way they could be easily changed without messing with
+the way the strings get drawn [font, location, etc.]. Though, a caveat of this is that there can't be too much of a difference in strings or else the Draw
+method will have to be altered anyways. An advantage of using the actual Peach class vs just a Sprite is that you can use the Sprite factory to simplify anim logic.
+
+It's also interesting that one timer is in seconds and the other in frames; the difference between using frames as a measure vs. seconds is usually not noticeable,
+but if the game were to run slowly [or too fast somehow] there would be a difference.
+
+Minutes: 15

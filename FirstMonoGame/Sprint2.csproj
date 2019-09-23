@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C0B99C0E-5521-43F6-83F4-164E561C2564}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FirstMonoGame</RootNamespace>
+    <AssemblyName>FirstMonoGame</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="States\GameState\EndingCutScene.cs" />
+    <Compile Include="Collision\AABB.cs" />
+    <Compile Include="Commands\AscendCommand.cs" />
+    <Compile Include="Commands\FireBallCommand.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Entity\FireBar.cs" />
+    <Compile Include="Entity\DGrade.cs" />
+    <Compile Include="Entity\FGrade.cs" />
+    <Compile Include="Entity\CGrade.cs" />
+    <Compile Include="Entity\BGrade.cs" />
+    <Compile Include="Entity\AGrade.cs" />
+    <Compile Include="Entity\Bowser.cs" />
+    <Compile Include="Entity\CheckpointFlag.cs" />
+    <Compile Include="Entity\FireBall.cs" />
+    <Compile Include="Entity\GlassBlock.cs" />
+    <Compile Include="Entity\HealthBar.cs" />
+    <Compile Include="Entity\Mario.cs" />
+    <Compile Include="Interfaces\IGameState.cs" />
+    <Compile Include="PlayerStats.cs" />
+    <Compile Include="Collision\CollisionDetection.cs" />
+    <Compile Include="Collision\Collections.cs" />
+    <Compile Include="Collision\GridMap.cs" />
+    <Compile Include="Collision\ICollisionFinder.cs" />
+    <Compile Include="Commands\ToggleBoundingBoxCommand.cs" />
+    <Compile Include="Commands\ResetLevelCommand.cs" />
+    <Compile Include="Commands\MuteCommand.cs" />
+    <Compile Include="Commands\CrouchCommand.cs" />
+    <Compile Include="Commands\FirePowerUpCommand.cs" />
+    <Compile Include="Commands\JumpCommand.cs" />
+    <Compile Include="Commands\MoveRightCommand.cs" />
+    <Compile Include="Commands\MoveLeftCommand.cs" />
+    <Compile Include="Commands\StandardPowerUpCommand.cs" />
+    <Compile Include="Commands\StarPowerUpCommand.cs" />
+    <Compile Include="Commands\SuperPowerUpCommand.cs" />
+    <Compile Include="Commands\TakeDamageCommand.cs" />
+    <Compile Include="Controllers\GamePadController.cs" />
+    <Compile Include="Controllers\Controller.cs" />
+    <Compile Include="Controllers\KeyboardController.cs" />
+    <Compile Include="Entity\Block.cs" />
+    <Compile Include="Entity\Bush.cs" />
+    <Compile Include="Entity\Coin.cs" />
+    <Compile Include="Entity\ExplodingBlock.cs" />
+    <Compile Include="Entity\FireFlower.cs" />
+    <Compile Include="Entity\Flag.cs" />
+    <Compile Include="Entity\HiddenBlock.cs" />
+    <Compile Include="Entity\IEntity.cs" />
+    <Compile Include="Entity\OneUpMushroom.cs" />
+    <Compile Include="Entity\Pipe.cs" />
+    <Compile Include="Entity\Piranha.cs" />
+    <Compile Include="Entity\StairBlock.cs" />
+    <Compile Include="Entity\Star.cs" />
+    <Compile Include="Entity\SuperMushroom.cs" />
+    <Compile Include="Entity\UsedBlock.cs" />
+    <Compile Include="Entity\WarpPipe.cs" />
+    <Compile Include="GameMain.cs" />
+    <Compile Include="Interfaces\IController.cs" />
+    <Compile Include="Interfaces\IItemState.cs" />
+    <Compile Include="Interfaces\IKeyState.cs" />
+    <Compile Include="KeyState.cs" />
+    <Compile Include="Entity\BrickBlock.cs" />
+    <Compile Include="Interfaces\IBlockContext.cs" />
+    <Compile Include="Entity\FloorBlock.cs" />
+    <Compile Include="Entity\KoopaTroopa.cs" />
+    <Compile Include="Entity\QuestionBlock.cs" />
+    <Compile Include="Commands\ExitCommand.cs" />
+    <Compile Include="Entity\Goomba.cs" />
+    <Compile Include="Interfaces\IActionState.cs" />
+    <Compile Include="Interfaces\IBlockState.cs" />
+    <Compile Include="Interfaces\IEnemyState.cs" />
+    <Compile Include="Interfaces\IEnemyContext.cs" />
+    <Compile Include="Interfaces\IPowerupState.cs" />
+    <Compile Include="Entity\Peach.cs" />
+    <Compile Include="Levels\Level.cs" />
+    <Compile Include="Levels\LevelLoader.cs" />
+    <Compile Include="Scrolling\Camera.cs" />
+    <Compile Include="Scrolling\Background.cs" />
+    <Compile Include="Scrolling\BackgroundControl.cs" />
+    <Compile Include="Sprites\AvatarSprite.cs" />
+    <Compile Include="Sprites\BlockSprite.cs" />
+    <Compile Include="Sprites\EnemySprite.cs" />
+    <Compile Include="Sprites\ItemSprite.cs" />
+    <Compile Include="Sprites\SpriteFactory.cs" />
+    <Compile Include="States\BlockStates\BumpBrickBlockState.cs" />
+    <Compile Include="States\BlockStates\CrackedGlassBlockState.cs" />
+    <Compile Include="States\BlockStates\ExplodeBrickBlockState.cs" />
+    <Compile Include="States\BlockStates\NewBrickBlockState.cs" />
+    <Compile Include="States\BlockStates\BumpQuestionBlockState.cs" />
+    <Compile Include="States\BlockStates\HiddenBlockState.cs" />
+    <Compile Include="States\BlockStates\NewGlassBlockState.cs" />
+    <Compile Include="States\BlockStates\NewQuestionBlockState.cs" />
+    <Compile Include="States\BlockStates\UsedQuestionBlockState.cs" />
+    <Compile Include="States\EnemyStates\BreathingFireBowserState.cs" />
+    <Compile Include="States\EnemyStates\DeadBowserState.cs" />
+    <Compile Include="States\EnemyStates\PunchingBowserState.cs" />
+    <Compile Include="States\EnemyStates\ShellKoopaState.cs" />
+    <Compile Include="States\EnemyStates\DeadGoombaState.cs" />
+    <Compile Include="States\EnemyStates\DeadKoopaTroopaState.cs" />
+    <Compile Include="States\EnemyStates\StandardBowserState.cs" />
+    <Compile Include="States\EnemyStates\StandardGoombaState.cs" />
+    <Compile Include="States\EnemyStates\StandardKoopaTroopaState.cs" />
+    <Compile Include="Interfaces\ICommand.cs" />
+    <Compile Include="Interfaces\ISprite.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="States\EnemyStates\TakingDamageBowserState.cs" />
+    <Compile Include="States\EnemyStates\WalkingBowserState.cs" />
+    <Compile Include="States\GameState\BeginningState.cs" />
+    <Compile Include="States\GameState\CoinRoomState.cs" />
+    <Compile Include="States\GameState\GameTransitionState.cs" />
+    <Compile Include="States\GameState\GameOverState.cs" />
+    <Compile Include="States\GameState\GradeRoomState.cs" />
+    <Compile Include="States\GameState\InitialState.cs" />
+    <Compile Include="States\GameState\WinnnerState.cs" />
+    <Compile Include="States\ItemStates\CheckpointFlagDropState.cs" />
+    <Compile Include="States\ItemStates\FlagDropState.cs" />
+    <Compile Include="States\ItemStates\CheckpointFlagNewState.cs" />
+    <Compile Include="States\ItemStates\FlagNewState.cs" />
+    <Compile Include="States\PeachStates\CrouchingState.cs" />
+    <Compile Include="States\PeachStates\FallingState.cs" />
+    <Compile Include="States\PeachStates\IdleState.cs" />
+    <Compile Include="States\PeachStates\JumpingState.cs" />
+    <Compile Include="States\PeachStates\RunningState.cs" />
+    <Compile Include="States\PeachStates\WalkingState.cs" />
+    <Compile Include="States\PowerUpStates\DeadState.cs" />
+    <Compile Include="States\PowerUpStates\FireState.cs" />
+    <Compile Include="States\PowerUpStates\StandardState.cs" />
+    <Compile Include="States\PowerUpStates\SuperState.cs" />
+    <Compile Include="States\PowerUpStates\WarpingState.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sprint5CodeReviews\AllisonCubaCR.txt" />
+    <Content Include="Sprint5CodeReviews\AmlingCR.txt" />
+    <Content Include="Sprint5CodeReviews\CassidyMurphyCR.txt" />
+    <Content Include="Sprint5CodeReviews\KennellyCR.txt" />
+    <Content Include="Sprint5CodeReviews\PennyCarverCR.txt" />
+    <Content Include="verticalLevel.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="level.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Sprint1CodeReviews\AllisonCubaCR.txt" />
+    <Content Include="Sprint1CodeReviews\AmlingCR.txt" />
+    <Content Include="Sprint1CodeReviews\CarverCR.txt" />
+    <Content Include="Sprint1CodeReviews\KennellyCR.txt" />
+    <Content Include="Sprint1CodeReviews\MurphyCR.txt" />
+    <Content Include="Icon.ico" />
+    <Content Include="ReadMe.txt" />
+    <Content Include="Sprint2CodeReviews\CassidyMurphyCR.txt" />
+    <Content Include="Sprint2CodeReviews\McKenzieKennellyCR.txt" />
+    <Content Include="Sprint2CodeReviews\AllisonCubaCR.txt" />
+    <Content Include="Sprint2CodeReviews\MurphyCR.txt" />
+    <Content Include="Sprint2CodeReviews\NatalieAmlingCR.txt" />
+    <Content Include="Sprint2CodeReviews\PennyCarverCR.txt" />
+    <Content Include="Sprint4CodeReviews\AllisonCubaCR.txt" />
+    <Content Include="Sprint4CodeReviews\AmlingCR.txt" />
+    <Content Include="Sprint4CodeReviews\CassidyMurphyCR.txt" />
+    <Content Include="Sprint4CodeReviews\KennellyCR.txt" />
+    <Content Include="Sprint4CodeReviews\PennyCarverCR.txt" />
+    <Content Include="Sprint3CodeReviews\AllisonCubaCR.txt" />
+    <Content Include="Sprint3CodeReviews\AmlingCR.txt" />
+    <Content Include="Sprint3CodeReviews\CassidyMurphyCR.txt" />
+    <Content Include="Sprint3CodeReviews\KennellyCR.txt" />
+    <Content Include="Sprint3CodeReviews\PennyCarverCR.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.manifest" />
+    <Compile Include="States\PowerUpStates\StarState.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

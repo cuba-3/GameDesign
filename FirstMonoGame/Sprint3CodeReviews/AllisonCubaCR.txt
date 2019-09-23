@@ -1,0 +1,17 @@
+﻿Allison Cuba
+3/19/19
+Sprint3
+LevelLoader.cs
+McKenzie Kennelly
+Inside of LevelLoader there is some repeated code inside of the 
+AddBlock method.  Question block and brick Block both register any hidden
+items that they contain in the same way.  This is obviously repetitive
+and the mehtod also has a very high cyclomatic complexity.  
+
+Time Spent on review: 15 minutes
+
+Perhaps we could initialize brickblock and questionblock outside of the
+switch case.  Or, we might be able to set a bool to true, indicating
+that these blocks do have hidden items.  Then outside of the switch case, we could
+say that if a block has children, add them in the same for loop structure that
+is currently being impelemented.

@@ -1,0 +1,16 @@
+﻿Cassidy Murphy
+4/16/2019
+Sprint5
+GradeRoomStates and CoinRoomStates
+Mckenzie and Natalie
+
+The coin and grade room states are good because they allow us to draw instructions on the screen
+when peach eneters the minigames. It allows smooth transitions to each game state such as game over
+and retarting as well. The game states also keep grades and coins from being generated
+randomly when peach is in the above world which is good as well.
+
+To improve these I think the instruction locations could have been stored as constants in the 
+tconstants file. The same 8 locations are calculated in each one each time and saving them 
+as constants would fix that.
+
+Time Spent: 20 min.

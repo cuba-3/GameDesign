@@ -1,0 +1,15 @@
+﻿McKenzie Kennelly
+04-16-2019
+5
+EndCutScene.cs
+Cassidy Murphy
+This cut screen occurs when Peach wins the second level, and jumps on the flag. When she does this,
+she walks right and the entire glass ceiling breaks. The winner screen is then displayed with her 
+status. She utilized a goal location and peach's location to make her walk a certain distance.
+She also uses commands to make her actually move left and right depending on what way she is 
+facing. Commands are how we originally discussed in class to do cut screens.
+15​
+A change Cassidy could have done is paused the rest of the game when the end cut screen is 
+occuring. For example, if Bowser is alive, he still moves during the cut screen. This is not
+usually the functionality of a cut screen. Therefore, I think this would have made the 
+cut screen cleaner.

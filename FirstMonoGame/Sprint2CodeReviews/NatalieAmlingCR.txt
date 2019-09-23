@@ -1,0 +1,16 @@
+﻿Natalie Amling
+Feb. 26th 2019
+Sprint 2
+GridMap.cs
+Allison Cuba and Penny Carver
+
+The Grid Map creation the handling of adding and removing entities from the grid are good uses of the grid in my opinion. The only problem I see is
+Penny's implementation of findCollision() does not use the nearby neighbor method of detecting collisions. Instead the entire grid looks for pairs of
+collisions. This makes sense to me and how we handled our collisions in the entity classes but it is not a direct implementation of the grid method
+of collisions.
+
+I would suggest that it might be worth trying the nearby neighbor method. I am not sure that is it asymptotically a better method but it seems like it
+might be because it only checks the 9 or so tiles around an entity instead of the entire grid but at the same time this elimates calling find collision
+on each entity.
+
+10 minutes

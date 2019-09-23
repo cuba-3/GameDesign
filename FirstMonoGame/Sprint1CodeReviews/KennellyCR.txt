@@ -1,0 +1,11 @@
+﻿McKenzie Kennelly
+02/12/2019
+1
+ItemSprite.cs
+Natalie Amling
+The ItemSprite class is a little different than the other Sprite classes. Natalie chose to add parameters to the constructor, and the other sprites do not have parameters.
+This is how she sets the texture, rows, columns, and location. This works for ItemSprite because none of the item entities have a state. In the Sprite Factory, the 
+constructor is instantiated with all of the applicable parameters it needs for the item. Some of the methods that ItemSprite implements (because it implements ISprite)
+were left empty because they did not need to be implemented to get the item sprites on the screen.
+15
+To remove the unimplemented methods from ItemSprite, Natalie could have made another interface for item sprites specifically. 

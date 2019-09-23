@@ -1,0 +1,13 @@
+﻿Cassidy Murphy
+3/19/2019
+Sprint3
+GridMap.cs
+Penny
+GridMap does a pretty good job at managing the objects and the grid, but when
+the grid is created it uses the viewport as the limits instead of the entire
+level. This means that anything outside the viewport but part of the level
+just doesn't collide, ever. Also, if objects move fast or collide with lots of
+things collision detection should be more involved than just seeing if bounding
+boxes intersect. Also, if we add lots of nonmoving objects in the same spot it makes
+the game completely unresponsive, so we need to find a way to reduce checks.
+Time spent: 15 min.

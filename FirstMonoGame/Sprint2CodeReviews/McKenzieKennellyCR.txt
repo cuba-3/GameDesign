@@ -1,0 +1,14 @@
+﻿McKenzie Kennelly
+02/26/2019
+2
+CollisionResponse.cs
+Penny Carver, Natalie Amling, Cassidy Murphy, Allison Cuba, McKenzie Kennelly
+The CollisionResponse class is essentially just a bunch of helper methods. Everytime an entity collides with another entity, the method DoCollision() is called in each 
+of the entities (each entity class has this method) is called. This method contains numerous if, else if, else statements to identify the item the 
+entity is colliding with, and according to which one, the appropiate helper method in CollisionResponse is called. Helper methods in a seperate class are a good idea, or else
+we would have had to put all of the methods in each individual entity class, which could have gotten really confusing. This could have resulted in the code smell: long classes.
+The helper methods allow for all collision response possible cases to be implemented.
+15
+CollisionResponse is a really large class, and it could have been broken up differently or completley done with different logic. It is very
+dependent on checking the bounding boxes of each entity, their intersection, and logical operations in if, else if, else statements. If any of the 
+logical operations were done incorrectly, the collisions would not function properly.

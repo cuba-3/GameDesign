@@ -1,0 +1,16 @@
+﻿McKenzie Kennelly
+03-19-2019
+3​
+CollisionResponse.cs​
+Natalie Amling​
+Natalie spent a lot of time refactoring this class, but I feel​
+as though the methods could be simplified.  For example, BrickBlockCollision ​
+has six nested if statements. This risks a high cyclomatic complexity. While debugging, we also descovered​
+that some of these conditions do not have the outcome that we wanted while writing ​
+them. ​Natalie's refactor makes it diffcult to account for every collision condition.
+15​
+One way that we could simplify this method, is the way that hidden items​
+inside of blocks are handled.  If the entity coming out of the block is a SuperMushroom,​
+a OneUpMushroom, or a Star, the resulting code is nearly identical in all three cases.​
+To eliminate this, we could either combine these cases, set the velocity inside of the ​
+Entity's class, or make a seperate method that handles these conditions.

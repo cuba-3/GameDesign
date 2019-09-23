@@ -1,0 +1,10 @@
+﻿Author of CR: Cassidy Murphy
+Date of CR: 2/12/19
+Sprint #: 1
+CS Files: DeadState.cs, StandardState.cs, FireState.cs, StarState.cs, SuperState.cs
+Author of CS Files: Allison Cuba
+When swiching Peach.PowerUpState, I like how we use Peach.GetWhateverSpriteSheet because that ensures that we only have to change the PowerUpSpriteSheet in one location.
+I don't like how in every different PowerUp State class after getting the correct sprite sheet from peach you have to set the sprite sheet rows and columns after. These are like magic numbers and one mistype could cause a very difficult error to find. 
+Overall too many magic numbers and repeated code across all these files. I really think it could be condensed.
+About 10 minutes to complete this review. 
+Possible change, make one method for each sprite sheet change and inside the PowerUpTransitions only call that method if allowed. This would eliminate all repeated code and this way if a sprite sheet changes you only need to edit one file.

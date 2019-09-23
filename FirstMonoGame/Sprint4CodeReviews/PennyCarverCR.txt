@@ -1,0 +1,13 @@
+﻿Penny Carver 
+4/2/2019
+Sprint4
+Code: PlayerStats.cs
+Author: McKenzie Kennelly, Cassidy Murphy
+
+The PlayerStats class does a really good job of keeping track of the player stats related to player manipulation of the avatar; it isn't coupled
+to the Avatar class. The sprite code could maybe be part of a HUD class if the class were to get too complicated. I like that the player's avatar and
+other aspects of the game are part of the constructor so you could use the class in more than one way. There are some assets being loaded in the class,
+though, that are specific to Peach. If we changed the game to have different selectable characters, like at the start of the game or something, we'd
+have to refactor it so that the resources come from the avatar and are used or they're triggered elsewhere.
+
+Minutes: 15

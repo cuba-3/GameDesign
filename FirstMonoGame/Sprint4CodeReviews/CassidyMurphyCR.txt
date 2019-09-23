@@ -1,0 +1,14 @@
+﻿Cassidy Murphy
+4/2/2019
+Sprint4
+AscendCommand.cs/DescendCommand.cs
+Natalie and Allison
+
+The code for Descend command is basically not used anymore, it looks like there used to be code in it that was taken out and placed
+in Peach Update(). There doesn't seem to be any rhyme or reason as to which information is handled in the commands and what is handled
+in Update().
+
+In the future I would suggest refactoring to pull all possible pieces of the command into the Command files and only leaving necessary
+parts in DoCollision and in Update. Specifically the Ascending and Descending bool can be set in the corresponding command files.
+
+Time Spent: 10 min.

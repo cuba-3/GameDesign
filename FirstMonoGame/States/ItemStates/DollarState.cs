@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using FirstMonoGame.Entity;
+using FirstMonoGame.Interfaces;
+using System.Threading.Tasks;
+
+namespace FirstMonoGame.States.ItemStates
+{
+    class DollarState : IItemState<Coin>
+    {
+        public void DoAction(Coin coin)
+        {
+            return;
+        }
+    }
+}

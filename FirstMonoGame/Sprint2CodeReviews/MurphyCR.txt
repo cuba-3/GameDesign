@@ -1,0 +1,13 @@
+﻿Author of CR: Cassidy Murphy
+Date of CR: 2/26/19
+Sprint #2
+CS Files: LevelLoader.cs
+Author of CS Files: Mckenzie Kennelly
+
+I like how LevelLoader reads and initializes entities from the level.xml file.
+It's also very nice not to have to declare all the entities inside of main anymore.
+Also level loader can be reused for the future levels we make which was a good implementation.
+But I don't like the long methods with lots of switch statements since this is considered a code smell.
+This could easily be fixed though by breaking up each case of the switch statement into methods.
+
+It took me about 15 minutes to complete this review.

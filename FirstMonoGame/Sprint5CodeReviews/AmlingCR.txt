@@ -1,0 +1,18 @@
+﻿Natalie Amling
+Apr. 16nd 2019
+Sprint 5
+HealthBar.cs
+Allison Cuba
+
+The Health Bar entity works well in the level but gave me some implementation questions. First, the health bar is
+and enemy entity, which doesn't make any sense because the health bar doesn't take damage from peach, it just displays
+the damage that Bowser is taking. It is probably better off as an item or as it's own entity type. Additionally, as
+Bowser is the final boss in the game, the use of Factory MIGHT not be necessary as each health bar level will only be used
+once.
+I would have made the health bar it's own entity type if I was planning on extending this game past this level, as there
+would probably be other entities who might use the health bar, like Peach for instance and in that case the enemy type would
+not  make sense.
+
+Time Spent: 15 minutes
+
+

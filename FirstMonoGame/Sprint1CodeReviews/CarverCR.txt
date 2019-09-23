@@ -1,0 +1,23 @@
+﻿###Code Review###
+Review Author: Penny Carver
+Review Date: 2/12/2019
+Sprint Number: 1
+.cs File Name: Sprites/AvatarSprite.cs
+.cs File Author: Cassidy Murphy
+
+Comments on Code Quality:
+-Why is the property Texture public? It has a setter (ChangeTexture) and isn't accessed outside the AvatarSprite class
+-The utility provided by public properties could be rewritten as methods that would be in ISprite and could be used for all implementing classes. CurrentLocation could
+have a setter and thus be made into a private field, for example.
+-The logic in Draw is really good; what would happen if we tried creating sprite sheets with more than one row for the same anim?
+-SwitchAnimation, ChangeTexture, and SetFrame have very specific functionality; it works well for what we have sprite sheet-wise
+-The Velocity vector is a nice field to have; it might be useful to create a method to add a vector to Velocity so that acceleration/deceleration can be made later on
+-SetVelocity could just take a Vector instead of two ints with the vector components
+-The debug method could probably be moved into a separate class for use in debugging or something, just so that it's not with the class method implementations
+
+Minutes Taken to Complete Review: 20
+
+Potential Change to Game, Effect on Code:
+A change to sprite animations that might take some careful thought on how to implement is an anim where the first i frames represent a non-looping "intro" anim, the second
+j frames represent a looping "true" anim, and the last k frames represent a non-looping "end" anim, similar to the first i frames. Our current implementation can't do that, 
+but we could change the start and end frames for a singular anim on the sprite sheet and change the Draw logic accordingly.

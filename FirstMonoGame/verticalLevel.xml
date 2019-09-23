@@ -1,0 +1,682 @@
+<?xml version="1.0"?>
+<level>
+  <avatar type="peach" x="100" y="6700" xVelocity="0" yVelocity="0" visible="true"/>
+  <enemy type="bowser" x="1300" y="5363" xVelocity="0" yVelocity="0" visible="true"/>
+  <enemy type="healthBar" x="1300" y="5353" xVelocity="0" yVelocity="0" visible="true"/>
+  <item type="flag" x="54" y="4680" visible="true"/>
+
+  <!--ROW-->
+  <block type="floorblock" x="0" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="54" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="108" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="162" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="216" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="270" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="324" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="378" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="432" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="486" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="540" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="594" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="648" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="702" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="756" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="810" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="864" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="918" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="972" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1026" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1080" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1134" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1188" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1242" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1296" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1350" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1404" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1458" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1512" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1566" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1620" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1674" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1728" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1782" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1836" y="7194" visible="true" checkable="false"/>
+  <block type="floorblock" x="1890" y="7194" visible="true" checkable="false"/>
+  
+  <!--ROW-->
+  <block type="floorblock" x="0" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="54" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="108" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="162" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="216" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="270" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="324" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="378" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="432" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="486" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="540" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="594" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="648" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="702" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="756" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="810" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="864" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="918" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="972" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1026" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1080" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1134" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1188" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1242" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1296" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1350" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1404" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1458" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1512" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1566" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1620" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1674" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1728" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1782" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1836" y="7140" visible="true" checkable="false"/>
+  <block type="floorblock" x="1890" y="7140" visible="true" checkable="false"/>
+
+  <!--ROW-->
+  <block type="floorblock" x="0" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="54" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="108" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="162" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="216" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="270" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="324" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="378" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="432" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="486" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="540" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="594" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="648" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="702" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="756" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="810" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="864" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="918" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="972" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1026" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1080" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1134" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1188" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1242" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1296" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1350" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1404" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1458" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1512" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1566" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1620" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1674" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1728" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1782" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1836" y="7086" visible="true" checkable="false"/>
+  <block type="floorblock" x="1890" y="7086" visible="true" checkable="false"/>
+
+  <!--ROW-->
+  <block type="floorblock" x="0" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="54" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="108" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="162" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="216" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="270" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="324" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="378" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="432" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="486" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="540" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="594" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="648" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="702" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="756" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="810" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="864" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="918" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="972" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1026" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1080" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1134" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1188" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1242" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1296" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1350" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1404" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1458" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1512" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1566" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1620" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1674" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1728" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1782" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1836" y="7032" visible="true" checkable="false"/>
+  <block type="floorblock" x="1890" y="7032" visible="true" checkable="false"/>
+
+
+  <!--ROW-->
+  <block type="floorblock" x="0" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="54" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="108" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="162" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="216" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="270" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="324" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="378" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="432" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="486" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="540" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="594" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="648" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="702" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="756" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="810" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="864" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="918" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="972" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1026" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1080" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1134" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1188" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1242" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1296" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1350" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1404" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1458" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1512" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1566" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1620" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1674" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1728" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1782" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1836" y="6987" visible="true" checkable="false"/>
+  <block type="floorblock" x="1890" y="6987" visible="true" checkable="false"/>
+
+
+  <!--ROW-->
+  <block type="floorblock" x="0" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="54" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="108" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="162" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="216" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="270" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="324" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="378" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="432" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="486" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="540" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="594" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="648" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="702" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="756" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="810" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="864" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="918" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="972" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1026" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1080" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1134" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1188" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1242" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1296" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1350" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1404" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1458" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1512" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1566" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1620" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1674" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1728" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1782" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1836" y="6942" visible="true" checkable="false"/>
+  <block type="floorblock" x="1890" y="6942" visible="true" checkable="false"/>
+
+  <!--ROW-->
+  <block type="floorblock" x="0" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="54" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="108" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="162" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="216" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="270" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="324" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="378" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="432" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="486" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="540" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="594" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="648" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="702" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="756" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="810" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="864" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="918" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="972" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1026" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1080" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1134" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1188" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1242" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1296" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1350" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1404" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1458" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1512" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1566" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1620" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1674" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1728" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1782" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1836" y="6897" visible="true" checkable="false"/>
+  <block type="floorblock" x="1890" y="6897" visible="true" checkable="false"/>
+ 
+  
+  <!--ROW-->
+  <block type="floorblock" x="0" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="54" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="108" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="162" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="216" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="270" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="324" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="378" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="432" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="486" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="540" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="594" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="648" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="702" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="756" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="810" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="864" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="918" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="972" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1026" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1080" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1134" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1188" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1242" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1296" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1350" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1404" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1458" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1512" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1566" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1620" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1674" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1728" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1782" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1836" y="6852" visible="true" checkable="false"/>
+  <block type="floorblock" x="1890" y="6852" visible="true" checkable="false"/>
+ 
+
+  <!--ROW-->
+  <block type="floorblock" x="0" y="6807" visible="true"/>
+  <block type="floorblock" x="54" y="6807" visible="true"/>
+  <block type="floorblock" x="108" y="6807" visible="true"/>
+  <block type="floorblock" x="162" y="6807" visible="true"/>
+  <block type="floorblock" x="216" y="6807" visible="true"/>
+  <block type="floorblock" x="270" y="6807" visible="true"/>
+  <block type="floorblock" x="324" y="6807" visible="true"/>
+  <block type="floorblock" x="378" y="6807" visible="true"/>
+  <block type="floorblock" x="432" y="6807" visible="true"/>
+  <block type="floorblock" x="486" y="6807" visible="true"/>
+  <block type="floorblock" x="540" y="6807" visible="true"/>
+  <block type="floorblock" x="594" y="6807" visible="true"/>
+  <block type="floorblock" x="648" y="6807" visible="true"/>
+  <block type="floorblock" x="702" y="6807" visible="true"/>
+  <block type="floorblock" x="756" y="6807" visible="true"/>
+  <block type="floorblock" x="810" y="6807" visible="true"/>
+  <block type="floorblock" x="864" y="6807" visible="true"/>
+  <block type="floorblock" x="918" y="6807" visible="true"/>
+  <block type="floorblock" x="972" y="6807" visible="true"/>
+  <block type="floorblock" x="1026" y="6807" visible="true"/>
+  <block type="floorblock" x="1080" y="6807" visible="true"/>
+  <block type="floorblock" x="1134" y="6807" visible="true"/>
+  <block type="floorblock" x="1188" y="6807" visible="true"/>
+  <block type="floorblock" x="1242" y="6807" visible="true"/>
+  <block type="floorblock" x="1296" y="6807" visible="true"/>
+  <block type="floorblock" x="1350" y="6807" visible="true"/>
+  <block type="floorblock" x="1404" y="6807" visible="true"/>
+  <block type="floorblock" x="1458" y="6807" visible="true"/>
+  <block type="floorblock" x="1512" y="6807" visible="true"/>
+  <block type="floorblock" x="1566" y="6807" visible="true"/>
+  <block type="floorblock" x="1620" y="6807" visible="true"/>
+  <block type="floorblock" x="1674" y="6807" visible="true"/>
+  <block type="floorblock" x="1728" y="6807" visible="true"/>
+  <block type="floorblock" x="1782" y="6807" visible="true"/>
+  <block type="floorblock" x="1836" y="6807" visible="true"/>
+  <block type="floorblock" x="1890" y="6807" visible="true"/>
+
+  <!--Platforms to top-->
+  <block type="brickblock" x="600" y="6650" visible="true">
+  </block>
+  <block type="brickblock" x="654" y="6650" visible="true">
+  </block>
+  <block type="brickblock" x="708" y="6650" visible="true">
+  </block>
+
+  <block type="brickblock" x="1450" y="6600" visible="true">
+  </block>
+  <block type="brickblock" x="1504" y="6600" visible="true">
+  </block>
+  <block type="brickblock" x="1554" y="6600" visible="true">
+  </block>
+
+  <block type="brickblock" x="1000" y="6500" visible="true">
+  </block>
+  <block type="brickblock" x="1054" y="6500" visible="true">
+  </block>
+  <block type="brickblock" x="1108" y="6500" visible="true">
+  </block>
+
+  <block type="brickblock" x="500" y="6400" visible="true">
+  </block>
+  <block type="brickblock" x="554" y="6400" visible="true">
+  </block>
+  <block type="brickblock" x="608" y="6400" visible="true">
+  </block>
+
+  <block type="brickblock" x="1200" y="6350" visible="true">
+  </block>
+  <block type="brickblock" x="1254" y="6350" visible="true">
+  </block>
+  <block type="brickblock" x="1308" y="6350" visible="true">
+  </block>
+
+  <block type="brickblock" x="900" y="6200" visible="true">
+  </block>
+  <block type="brickblock" x="954" y="6200" visible="true">
+  </block>
+  <block type="brickblock" x="1008" y="6200" visible="true">
+  </block>
+  
+  <block type="brickblock" x="600" y="6150" visible="true">
+  </block>
+  <block type="brickblock" x="654" y="6150" visible="true">
+  </block>
+  <block type="brickblock" x="708" y="6150" visible="true">
+  </block>
+
+  <block type="brickblock" x="1400" y="6150" visible="true">
+  </block>
+  <block type="brickblock" x="1454" y="6150" visible="true">
+  </block>
+  <block type="brickblock" x="1508" y="6150" visible="true">
+  </block>
+
+  <block type="brickblock" x="350" y="6000" visible="true">
+  </block>
+  <block type="brickblock" x="404" y="6000" visible="true">
+  </block>
+  <item type="checkpointflag" x="414" y="5904" visible="true"/>
+  <block type="brickblock" x="458" y="6000" visible="true">
+  </block>
+  
+  <block type="brickblock" x="1550" y="5950" visible="true">
+  </block>
+  <block type="brickblock" x="1604" y="5950" visible="true">
+  </block>
+  <block type="brickblock" x="1658" y="5950" visible="true">
+  </block>
+  
+  <block type="brickblock" x="800" y="5900" visible="true">
+  </block>
+  <block type="brickblock" x="854" y="5900" visible="true">
+  </block>
+  <block type="brickblock" x="908" y="5900" visible="true">
+  </block>
+
+  <block type="brickblock" x="500" y="5800" visible="true">
+  </block>
+  <block type="brickblock" x="554" y="5800" visible="true">
+  </block>
+  <block type="brickblock" x="608" y="5800" visible="true">
+  </block>
+
+  <block type="brickblock" x="200" y="5700" visible="true">
+  </block>
+  <block type="brickblock" x="254" y="5700" visible="true">
+  </block>
+  <block type="brickblock" x="308" y="5700" visible="true">
+  </block>
+
+  <block type="brickblock" x="54" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="108" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="162" y="5500" visible="true">
+  </block>
+  
+  <!--Platform Below Ceiling-->
+  <block type="brickblock" x="324" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="378" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="432" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="486" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="540" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="594" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="648" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="702" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="756" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="810" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="864" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="918" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="972" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1026" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1080" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1134" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1188" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1242" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1296" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1350" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1404" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1458" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1512" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1566" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1620" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1674" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1728" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1782" y="5500" visible="true">
+  </block>
+  <block type="brickblock" x="1836" y="5500" visible="true">
+  </block>
+  
+  <!--Left Brick Side-->
+  <block type="floorblock" x="0" y="6753" visible="true"/>
+  <block type="floorblock" x="0" y="6699" visible="true"/>
+  <block type="floorblock" x="0" y="6645" visible="true"/>
+  <block type="floorblock" x="0" y="6591" visible="true"/>
+  <block type="floorblock" x="0" y="6537" visible="true"/>
+  <block type="floorblock" x="0" y="6483" visible="true"/>
+  <block type="floorblock" x="0" y="6429" visible="true"/>
+  <block type="floorblock" x="0" y="6375" visible="true"/>
+  <block type="floorblock" x="0" y="6321" visible="true"/>
+  <block type="floorblock" x="0" y="6267" visible="true"/>
+  <block type="floorblock" x="0" y="6213" visible="true"/>
+  <block type="floorblock" x="0" y="6159" visible="true"/>
+  <block type="floorblock" x="0" y="6105" visible="true"/>
+  <block type="floorblock" x="0" y="6051" visible="true"/>
+  <block type="floorblock" x="0" y="5997" visible="true"/>
+  <block type="floorblock" x="0" y="5943" visible="true"/>
+  <block type="floorblock" x="0" y="5889" visible="true"/>
+  <block type="floorblock" x="0" y="5835" visible="true"/>
+  <block type="floorblock" x="0" y="5781" visible="true"/>
+  <block type="floorblock" x="0" y="5727" visible="true"/>
+  <block type="floorblock" x="0" y="5673" visible="true"/>
+  <block type="floorblock" x="0" y="5619" visible="true"/>
+  <block type="floorblock" x="0" y="5565" visible="true"/>
+  <block type="floorblock" x="0" y="5511" visible="true"/>
+  <block type="floorblock" x="0" y="5457" visible="true"/>
+  <block type="floorblock" x="0" y="5403" visible="true"/>
+  <block type="floorblock" x="0" y="5349" visible="true"/>
+  <block type="floorblock" x="0" y="5295" visible="true"/>
+  <block type="floorblock" x="0" y="5241" visible="true"/>
+  <block type="floorblock" x="0" y="5187" visible="true"/>
+
+
+  <!--Right Brick Side-->
+  <block type="floorblock" x="1890" y="6753" visible="true"/>
+  <block type="floorblock" x="1890" y="6699" visible="true"/>
+  <block type="floorblock" x="1890" y="6645" visible="true"/>
+  <block type="floorblock" x="1890" y="6591" visible="true"/>
+  <block type="floorblock" x="1890" y="6537" visible="true"/>
+  <block type="floorblock" x="1890" y="6483" visible="true"/>
+  <block type="floorblock" x="1890" y="6429" visible="true"/>
+  <block type="floorblock" x="1890" y="6375" visible="true"/>
+  <block type="floorblock" x="1890" y="6321" visible="true"/>
+  <block type="floorblock" x="1890" y="6267" visible="true"/>
+  <block type="floorblock" x="1890" y="6213" visible="true"/>
+  <block type="floorblock" x="1890" y="6159" visible="true"/>
+  <block type="floorblock" x="1890" y="6105" visible="true"/>
+  <block type="floorblock" x="1890" y="6051" visible="true"/>
+  <block type="floorblock" x="1890" y="5997" visible="true"/>
+  <block type="floorblock" x="1890" y="5943" visible="true"/>
+  <block type="floorblock" x="1890" y="5889" visible="true"/>
+  <block type="floorblock" x="1890" y="5835" visible="true"/>
+  <block type="floorblock" x="1890" y="5781" visible="true"/>
+  <block type="floorblock" x="1890" y="5727" visible="true"/>
+  <block type="floorblock" x="1890" y="5673" visible="true"/>
+  <block type="floorblock" x="1890" y="5619" visible="true"/>
+  <block type="floorblock" x="1890" y="5565" visible="true"/>
+  <block type="floorblock" x="1890" y="5511" visible="true"/>
+  <block type="floorblock" x="1890" y="5457" visible="true"/>
+  <block type="floorblock" x="1890" y="5403" visible="true"/>
+  <block type="floorblock" x="1890" y="5349" visible="true"/>
+  <block type="floorblock" x="1836" y="5349" visible="true"/>
+  <block type="floorblock" x="1782" y="5349" visible="true"/>
+  <block type="floorblock" x="1890" y="5295" visible="true"/>
+  <block type="floorblock" x="1890" y="5241" visible="true"/>
+  <block type="floorblock" x="1890" y="5187" visible="true"/>
+  
+  <!--Make Glass Ceiling-->
+  <block type="brickblock" x="54" y="5187" visible="true"/>
+  <block type="brickblock" x="108" y="5187" visible="true"/>
+  <block type="brickblock" x="162" y="5187" visible="true"/>
+  <block type="brickblock" x="216" y="5187" visible="true"/>
+  <block type="brickblock" x="270" y="5187" visible="true"/>
+  <block type="brickblock" x="324" y="5187" visible="true"/>
+  <block type="brickblock" x="378" y="5187" visible="true"/>
+  <block type="glassblock" x="432" y="5187" visible="true">
+    <block type="explodingBlock" x="432" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="432" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="432" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="432" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="527" y="5187" visible="true">
+    <block type="explodingBlock" x="527" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="527" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="527" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="527" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="622" y="5187" visible="true">
+    <block type="explodingBlock" x="622" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="622" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="622" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="622" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="717" y="5187" visible="true">
+    <block type="explodingBlock" x="717" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="717" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="717" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="717" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="812" y="5187" visible="true">
+    <block type="explodingBlock" x="812" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="812" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="812" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="812" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="907" y="5187" visible="true">
+    <block type="explodingBlock" x="907" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="907" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="907" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="907" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="1002" y="5187" visible="true">
+    <block type="explodingBlock" x="1002" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1002" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1002" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1002" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="1097" y="5187" visible="true">
+    <block type="explodingBlock" x="1097" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1097" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1097" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1097" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="1192" y="5187" visible="true">
+    <block type="explodingBlock" x="1192" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1192" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1192" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1192" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="1287" y="5187" visible="true">
+    <block type="explodingBlock" x="1287" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1287" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1287" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1287" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="1382" y="5187" visible="true">
+    <block type="explodingBlock" x="1382" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1382" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1382" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1382" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="1477" y="5187" visible="true">
+    <block type="explodingBlock" x="1477" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1477" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1477" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1477" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="1572" y="5187" visible="true">
+    <block type="explodingBlock" x="1572" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1572" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1572" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1572" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="1667" y="5187" visible="true">
+    <block type="explodingBlock" x="1667" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1667" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1667" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1667" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="glassblock" x="1762" y="5187" visible="true">
+    <block type="explodingBlock" x="1762" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1762" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1762" y="5187" visible="false" checkable="false" glass="true"/>
+    <block type="explodingBlock" x="1762" y="5187" visible="false" checkable="false" glass="true"/>
+  </block>
+  <block type="brickblock" x="1857" y="5187" visible="true"/>
+
+  <levelProperties width="1920" height="7800" vertical="true"/>
+</level>

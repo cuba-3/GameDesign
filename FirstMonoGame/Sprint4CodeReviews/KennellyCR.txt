@@ -1,0 +1,17 @@
+﻿McKenzie Kennelly
+04-02-2019
+4
+PlayerStats.cs
+Cassidy Murphy
+The PlayerStats class has an update and draw method that Peach's update and draw calls.
+The methods draw the player stats to the screen and continiously updates them. Cassidy initialized
+all fields. All updates for the fields are done in the update method. These fields are getters
+and setters, so they can be accessed in other classes. The entirity of the HUD is drawn in the 
+draw method. There are some helper methods in this class that allow for other classes to 
+decrement/increment lives, pass checkpoints, or collect coins. These helper methods allow for
+other classes, upon certain conditions, to easily change the necessary player stats, such as decrement
+a life when an enemy collides with peach.
+15​
+A change could be to clean up the logic in update. It is kind of messy, and that is because
+a lot of different people contributed to it, including myself. Overall, the logic is
+all necessary to update the player stats, but could be cleaner.

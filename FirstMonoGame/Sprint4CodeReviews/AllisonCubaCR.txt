@@ -1,0 +1,16 @@
+﻿Allison Cuba
+4/2/19
+Sprint4
+CheckpointFlag
+Cassidy Murphy
+To save peach's state at a checkpoint, we currently use collision response and pass Peach's location to 
+CurrentStats, which is a method in PlayerStats.  This is also how we make warp pipes checkpoints.  
+
+Time Spent on review: 15 minutes
+
+This should be refactored to use the Memento Design Pattern.  Currently, only Peach's 
+location is preserved in CurrentStats.  I think that it could be really beneficial to preserve some more
+information, such as her PowerUpState.  In Sprint 5, when Peach gets reset to a checkpoint, we will probably need to 
+know more than just her location.  For example, we might need to be able to tell if she has achieved 
+certain bonuses because these will effect the sprites sheets and Peach's actions.  If we use the memento design pattern,
+we could make all of these attributes originators.  

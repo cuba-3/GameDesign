@@ -1,0 +1,15 @@
+﻿Allison Cuba
+4/16/19
+Sprint5
+Mario.cs
+Natalie Amling
+To control mario's movements, we currently have a very large update method that sets his velocity every few seconds based on a Delay integer.
+
+Time Spent on review: 15 minutes
+
+When first looking at Mario.cs, I immediately noticed the Update method and all of the if-else if-else conditional statements.
+This file undoubtedly has a high cyclomatic complexity because of this.  If we were to refactor this file, it would be better to have Mario action 
+states that would set his velocity. This would also make it clearer to see what is happening to Mario each time his velocity is being reset.  
+Currently, it is very difficult to see if Mario is walking, jumping, or falling, which also makes the file harder to Debug.
+Making action states would also help us to randomize his movements very easily, because we could randomly call the different action states.
+Mario also doesn't have gravity which would also remove the need to set his y velocity in a positive direction, forcing him to fall.

@@ -1,0 +1,15 @@
+﻿### Code Review ###
+Review Author: Penny Carver
+Date: 2/26/19
+Source Code: Peach.cs
+Sprint 2
+Code Author: McKenzie Kenelly
+
+The first comment I have is that in DoCollision, there is a massive # of if statements. Considering that CollisionResponse is a class full of static methods for use in
+telling enities how to respond to collisions, it might be better to try and put this logic into CollisionResponse (determining which entities are colliding and what 
+should happen). Sprite being in charge of the bounding box is a good idea since we will need to have her box change to reflect her appearance when she's crouching later 
+on. Changing the Sprite location with sprite sheet changes is interesting, and I'm not sure about how this will work when there is more complex moving, for example 
+scrolling. If other avatars are added, it would be a good idea to reduce the size of Avatar Entity classes by taking the sprite sheets and placing them in the appropriate 
+Sprite class.
+
+Minutes: 15
