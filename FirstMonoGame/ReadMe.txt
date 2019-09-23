@@ -1,10 +1,4 @@
-﻿Warning Justification (16 warnings, 9 justified)
-
-1 Warning	CA1014	"Mark 'FirstMonoGame.exe' with CLSCompliant(true) because it exposes externally visible types."
-We did not know what this meant. StackOverflow suggested we manipulate the root of the solution, but it was unclear where the root was.
-
-2 Warning	CA1814	"'GridMap.tiles' is a multidimensional array. Replace it with a jagged array if possible."	
-We believe this is not possible and unnecessary.
+﻿Warning Justification
 
 3 Warning	CA1030	"Consider making 'Peach.FirePowerUpTransition()' an event."
 We aren't using events.
@@ -13,8 +7,7 @@ We aren't using events.
 We aren't using events.
 
 5 Warning	CA2227	"Change 'Level.Entities' to be read-only by removing the property setter."
-We do not want Level.Entities to be read-only because certain classes need access to it. It is important for certain items upon their collision that they
-get deleted from this collection, so they no longer exist in the game.
+We do not want Level.Entities to be read-only because certain classes need access to it. It is important for certain items upon their collision that they get deleted from this collection, so they no longer exist in the game.
 
 6 Warning	CA1001	"Implement IDisposable on 'Level' because it creates members of the following IDisposable types: 'SpriteBatch'. If 'Level' has 
 previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers."	
